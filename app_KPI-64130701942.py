@@ -1,4 +1,6 @@
-
+from sklern.pipeline import Pipeline
+from sklear.preprocessing import standardScaler
+from xgboost import XGBClassifier
 import streamlit as st
 import pandas as pd
 import numpy as np
