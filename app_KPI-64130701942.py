@@ -1,4 +1,4 @@
-from sklern.pipeline import Pipeline
+from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import standardScaler
 from xgboost import XGBClassifier
 import streamlit as st
